@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import { Students as Studentlar, Teachers as Ustozlar } from "./App";
 // import App from "./App";
-import Students from "./Students";
-import reportWebVitals from "./reportWebVitals";
+import Students from "../../../tutorial2/src/Students";
+import reportWebVitals from "../../../tutorial2/src/reportWebVitals";
 
 const students = [
 	{id:1, name: "Sardor"},
