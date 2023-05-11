@@ -1,0 +1,13 @@
+1. Batching => React 18 vs React 17 => Differences in rendering
+In React 17 number of setStates equals number of re-renders
+But in React 18 there is Batching that groups all setStates and re-renders only one timeout
+
+If we want that React 18 also behaive like React 17 then, we use flushSync. It brings callback function
+
+2. [isPending, startTransition] = useTransition() => useful with Search Engine Optimization
+
+3. useDeferredValue() => we use it, in parent-child relationship, same with useTransition
+
+4. <Suspense fallback="loading...">
+	 	{Element}
+	 </Suspense>
